@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4081242F5E7A6A96D60F925 /* Pods_weather_arta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646C880819D9F5C25A336E5D /* Pods_weather_arta.framework */; };
 		F92CB5F71C4D42B300BBF5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CB5F61C4D42B300BBF5FF /* AppDelegate.swift */; };
 		F92CB5F91C4D42B300BBF5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CB5F81C4D42B300BBF5FF /* ViewController.swift */; };
 		F92CB5FC1C4D42B300BBF5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FA1C4D42B300BBF5FF /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		646C880819D9F5C25A336E5D /* Pods_weather_arta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather_arta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAB18574DA8973B25E28E2E /* Pods-weather-arta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather-arta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weather-arta/Pods-weather-arta.debug.xcconfig"; sourceTree = "<group>"; };
+		F809E3E0CC27F032CC9EC444 /* Pods-weather-arta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather-arta.release.xcconfig"; path = "Pods/Target Support Files/Pods-weather-arta/Pods-weather-arta.release.xcconfig"; sourceTree = "<group>"; };
 		F92CB5F31C4D42B300BBF5FF /* weather-arta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-arta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92CB5F61C4D42B300BBF5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F92CB5F81C4D42B300BBF5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4081242F5E7A6A96D60F925 /* Pods_weather_arta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372019146BC1B352BA9B2837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646C880819D9F5C25A336E5D /* Pods_weather_arta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D55438E03737B7D1AB4962F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DAB18574DA8973B25E28E2E /* Pods-weather-arta.debug.xcconfig */,
+				F809E3E0CC27F032CC9EC444 /* Pods-weather-arta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F92CB5EA1C4D42B300BBF5FF = {
 			isa = PBXGroup;
 			children = (
 				F92CB5F51C4D42B300BBF5FF /* weather-arta */,
 				F92CB5F41C4D42B300BBF5FF /* Products */,
+				8D55438E03737B7D1AB4962F /* Pods */,
+				372019146BC1B352BA9B2837 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F92CB6051C4D42B300BBF5FF /* Build configuration list for PBXNativeTarget "weather-arta" */;
 			buildPhases = (
+				51492452E3BE930A23A05801 /* Check Pods Manifest.lock */,
 				F92CB5EF1C4D42B300BBF5FF /* Sources */,
 				F92CB5F01C4D42B300BBF5FF /* Frameworks */,
 				F92CB5F11C4D42B300BBF5FF /* Resources */,
+				CDEC0D20C6A0F97E35914127 /* Embed Pods Frameworks */,
+				16FC596BA5B204F0ABF1640D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16FC596BA5B204F0ABF1640D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weather-arta/Pods-weather-arta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51492452E3BE930A23A05801 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDEC0D20C6A0F97E35914127 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weather-arta/Pods-weather-arta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F92CB5EF1C4D42B300BBF5FF /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		F92CB6061C4D42B300BBF5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DAB18574DA8973B25E28E2E /* Pods-weather-arta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "weather-arta/Info.plist";
@@ -258,6 +334,7 @@
 		};
 		F92CB6071C4D42B300BBF5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F809E3E0CC27F032CC9EC444 /* Pods-weather-arta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "weather-arta/Info.plist";
@@ -286,6 +363,7 @@
 				F92CB6071C4D42B300BBF5FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
