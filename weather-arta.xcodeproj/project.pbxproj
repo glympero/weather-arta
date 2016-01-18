@@ -13,6 +13,8 @@
 		F92CB5FC1C4D42B300BBF5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FA1C4D42B300BBF5FF /* Main.storyboard */; };
 		F92CB5FE1C4D42B300BBF5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FD1C4D42B300BBF5FF /* Assets.xcassets */; };
 		F92CB6011C4D42B300BBF5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FF1C4D42B300BBF5FF /* LaunchScreen.storyboard */; };
+		F92CB60B1C4D44F000BBF5FF /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CB60A1C4D44F000BBF5FF /* WeatherDetails.swift */; };
+		F92CB60E1C4D4CA100BBF5FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CB60D1C4D4CA100BBF5FF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F92CB5FD1C4D42B300BBF5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F92CB6001C4D42B300BBF5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F92CB6021C4D42B300BBF5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92CB60A1C4D44F000BBF5FF /* WeatherDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetails.swift; sourceTree = "<group>"; };
+		F92CB60D1C4D4CA100BBF5FF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +82,40 @@
 		F92CB5F51C4D42B300BBF5FF /* weather-arta */ = {
 			isa = PBXGroup;
 			children = (
+				F92CB60C1C4D4C9100BBF5FF /* Utilities */,
+				F92CB6081C4D44B400BBF5FF /* Model */,
+				F92CB6091C4D44C200BBF5FF /* Controller */,
 				F92CB5F61C4D42B300BBF5FF /* AppDelegate.swift */,
-				F92CB5F81C4D42B300BBF5FF /* ViewController.swift */,
 				F92CB5FA1C4D42B300BBF5FF /* Main.storyboard */,
 				F92CB5FD1C4D42B300BBF5FF /* Assets.xcassets */,
 				F92CB5FF1C4D42B300BBF5FF /* LaunchScreen.storyboard */,
 				F92CB6021C4D42B300BBF5FF /* Info.plist */,
 			);
 			path = "weather-arta";
+			sourceTree = "<group>";
+		};
+		F92CB6081C4D44B400BBF5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F92CB60A1C4D44F000BBF5FF /* WeatherDetails.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F92CB6091C4D44C200BBF5FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F92CB5F81C4D42B300BBF5FF /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F92CB60C1C4D4C9100BBF5FF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F92CB60D1C4D4CA100BBF5FF /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92CB60B1C4D44F000BBF5FF /* WeatherDetails.swift in Sources */,
 				F92CB5F91C4D42B300BBF5FF /* ViewController.swift in Sources */,
 				F92CB5F71C4D42B300BBF5FF /* AppDelegate.swift in Sources */,
+				F92CB60E1C4D4CA100BBF5FF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

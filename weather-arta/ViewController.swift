@@ -10,16 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var weatherDetails: WeatherDetails = WeatherDetails()
+    
+    @IBOutlet weak var mainIcon: UIImageView!
+    @IBOutlet weak var name: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//      weatherDetails =
+        name.text = weatherDetails.name
+        weatherDetails.downloadCurrentWeatherDetails { () -> () in
+            self.mainIcon.image = UIImage(named: self.weatherDetails.iconnName)
+            print(self.weatherDetails.iconnName)
+            print(self.weatherDetails.humidity)
+        }
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
