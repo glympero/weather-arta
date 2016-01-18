@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92CB5F71C4D42B300BBF5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CB5F61C4D42B300BBF5FF /* AppDelegate.swift */; };
+		F92CB5F91C4D42B300BBF5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92CB5F81C4D42B300BBF5FF /* ViewController.swift */; };
+		F92CB5FC1C4D42B300BBF5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FA1C4D42B300BBF5FF /* Main.storyboard */; };
+		F92CB5FE1C4D42B300BBF5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FD1C4D42B300BBF5FF /* Assets.xcassets */; };
+		F92CB6011C4D42B300BBF5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92CB5FF1C4D42B300BBF5FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F92CB5F31C4D42B300BBF5FF /* weather-arta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-arta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92CB5F61C4D42B300BBF5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F92CB5F81C4D42B300BBF5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F92CB5FB1C4D42B300BBF5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92CB5FD1C4D42B300BBF5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92CB6001C4D42B300BBF5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F92CB6021C4D42B300BBF5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92CB5F01C4D42B300BBF5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92CB5EA1C4D42B300BBF5FF = {
+			isa = PBXGroup;
+			children = (
+				F92CB5F51C4D42B300BBF5FF /* weather-arta */,
+				F92CB5F41C4D42B300BBF5FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92CB5F41C4D42B300BBF5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92CB5F31C4D42B300BBF5FF /* weather-arta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92CB5F51C4D42B300BBF5FF /* weather-arta */ = {
+			isa = PBXGroup;
+			children = (
+				F92CB5F61C4D42B300BBF5FF /* AppDelegate.swift */,
+				F92CB5F81C4D42B300BBF5FF /* ViewController.swift */,
+				F92CB5FA1C4D42B300BBF5FF /* Main.storyboard */,
+				F92CB5FD1C4D42B300BBF5FF /* Assets.xcassets */,
+				F92CB5FF1C4D42B300BBF5FF /* LaunchScreen.storyboard */,
+				F92CB6021C4D42B300BBF5FF /* Info.plist */,
+			);
+			path = "weather-arta";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92CB5F21C4D42B300BBF5FF /* weather-arta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92CB6051C4D42B300BBF5FF /* Build configuration list for PBXNativeTarget "weather-arta" */;
+			buildPhases = (
+				F92CB5EF1C4D42B300BBF5FF /* Sources */,
+				F92CB5F01C4D42B300BBF5FF /* Frameworks */,
+				F92CB5F11C4D42B300BBF5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "weather-arta";
+			productName = "weather-arta";
+			productReference = F92CB5F31C4D42B300BBF5FF /* weather-arta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92CB5EB1C4D42B300BBF5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = glympe;
+				TargetAttributes = {
+					F92CB5F21C4D42B300BBF5FF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F92CB5EE1C4D42B300BBF5FF /* Build configuration list for PBXProject "weather-arta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92CB5EA1C4D42B300BBF5FF;
+			productRefGroup = F92CB5F41C4D42B300BBF5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92CB5F21C4D42B300BBF5FF /* weather-arta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92CB5F11C4D42B300BBF5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92CB6011C4D42B300BBF5FF /* LaunchScreen.storyboard in Resources */,
+				F92CB5FE1C4D42B300BBF5FF /* Assets.xcassets in Resources */,
+				F92CB5FC1C4D42B300BBF5FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92CB5EF1C4D42B300BBF5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92CB5F91C4D42B300BBF5FF /* ViewController.swift in Sources */,
+				F92CB5F71C4D42B300BBF5FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F92CB5FA1C4D42B300BBF5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92CB5FB1C4D42B300BBF5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92CB5FF1C4D42B300BBF5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92CB6001C4D42B300BBF5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92CB6031C4D42B300BBF5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92CB6041C4D42B300BBF5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92CB6061C4D42B300BBF5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "weather-arta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glympe.weather-arta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F92CB6071C4D42B300BBF5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "weather-arta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glympe.weather-arta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92CB5EE1C4D42B300BBF5FF /* Build configuration list for PBXProject "weather-arta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92CB6031C4D42B300BBF5FF /* Debug */,
+				F92CB6041C4D42B300BBF5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92CB6051C4D42B300BBF5FF /* Build configuration list for PBXNativeTarget "weather-arta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92CB6061C4D42B300BBF5FF /* Debug */,
+				F92CB6071C4D42B300BBF5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92CB5EB1C4D42B300BBF5FF /* Project object */;
+}
